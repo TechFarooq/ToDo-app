@@ -1,0 +1,30 @@
+.task_column_heading {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task_column_icon {
+    width: 30px;
+    margin-right: 5px;
+  }
+  
+  /* Media query for Android and smaller screens */
+  @media (max-width: 768px) {
+    .task_column_heading {
+      justify-content: center;
+    }
+  
+    .task_column_icon {
+      width: 25px;
+      margin-right: 8px;
+    }
+  }
+  
+  /* Media query for very small Android phones */
+  @media (max-width: 480px) {
+    .task_column_icon {
+      width: 20px;
+      margin-right: 6px;
+    }
+  }
+  
